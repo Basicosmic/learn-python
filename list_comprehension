@@ -1,0 +1,10 @@
+#list comprehension 
+sc =[1,2,3,4]
+fr = []
+for i in sc:
+	if i<3:
+		fr.append(i)
+print(fr)
+
+sf = [x for x in sc if x<3]
+print(sf)
